@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/67152/projects/webrunner/trunk/extension/build
+END
+dependentlibs.list
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/62050/projects/webrunner/trunk/extension/build/dependentlibs.list
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/67152/projects/webrunner/trunk/extension/build/Makefile.in
+END

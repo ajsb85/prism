@@ -1,0 +1,250 @@
+/* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*-
+ *
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is mozilla.org Code.
+ *
+ * The Initial Developer of the Original Code is
+ * Mozilla.org.
+ * Portions created by the Initial Developer are Copyright (C) 1998
+ * the Initial Developer. All Rights Reserved.
+ *
+ * Contributor(s):
+ * Mark Finkle <mark.finkle@gmail.com>
+ * Matthew Gertner <matthew.gertner@gmail.com>
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ *
+ * ***** END LICENSE BLOCK ***** */
+ 
+/* Development of this Contribution was supported by Yahoo! Inc. */
+
+#include "nsISupports.idl"
+
+interface nsIApplicationIcon;
+interface nsIDOMWindow;
+interface nsIWebProgress;
+
+/**
+ * Interface that gives simplified access to sound functionality
+ */
+[scriptable, uuid(1be49d70-ec6d-11dc-95ff-0800200c9a66)]
+interface nsIPlatformGlueSound : nsISupports
+{
+  /**
+   * Makes a beeping noise.
+   */
+  void beep();
+
+  /**
+   * Plays a given sound resource.
+   * @param   aSoundURI
+   *          The URI of a sound resource
+   */
+  void playSound(in AString aSoundURI);
+};
+
+[function, scriptable, uuid(0d835990-2b21-11dd-bd0b-0800200c9a66)]
+interface nsIPlatformProtocolCallback : nsISupports
+{
+  void handleURI(in AString uriSpec);
+};
+
+/**
+ * Interface which must by implemented by listeners for showNotification
+ */
+[scriptable, uuid(5edb55a7-3303-4d58-ac22-5b1712752caf)]
+interface nsIPlatformNotificationListener : nsISupports
+{
+  /**
+   * Callback executed when the user clicks on the notification.
+   */
+  void onClick();
+  
+  /**
+   * Callback executed when the notification is finished and fades out.
+   */
+  void onFinished();
+};
+
+/**
+ * Interface that web content can use to prevent shutdown
+ */
+[scriptable, function, uuid(c609b327-e889-4560-9bcd-04d502436288)]
+interface nsIPlatformShutdownCallback : nsISupports
+{
+  /**
+   * Callback executed before shutdown.
+   *
+   * @returns True if the app can shutdown, false to prevent
+   */
+  boolean canShutdown();
+};
+
+/**
+ * Interface that gives simplified access to platform functionality
+ */
+[scriptable, uuid(64ef7c50-ec69-11dc-95ff-0800200c9a66)]
+interface nsIPlatformGlue : nsISupports
+{
+  /**
+   * Sends a given string to the console.
+   * @param   aTitle
+   *          The title of the alert
+   * @param   aText
+   *          The text of the alert
+   * @param   aImageURI
+   *          The URI of an image to use in alert. Can be null for no image.
+   * @param   textClickable
+   *          Make notification text clickable. Will execute click() method of
+   *          listener on click.
+   * @param   aListener
+   *          An object to receive callbacks from the notification. Can be null
+   *          for no callback functionality.
+   *          Implements a click() method executed when the user clicks on the
+   *          notification and a finished() method executed on notification fade
+   *          out.
+   */
+  void showNotification(in AString aTitle,
+                      in AString aText,
+                      [optional] in AString aImageURI,
+                      [optional] in boolean textClickable,
+                      [optional] in nsIPlatformNotificationListener aListener);
+
+  /**
+   * Post a name/value pair to the browser chrome. The browser is free to do
+   * whatever it wants with this data
+   * @param   aName
+   *          The name or key for the data
+   * @param   aValue
+   *          The value of the data
+   */
+  void postStatus(in AString aName, in AString aValue);
+  
+  /**
+   * Open the URI in the default browser.
+   * @param   aURISpec
+   *          URI to open
+   */
+  void openURI(in AString aURISpec);
+
+  /**
+   * Quit the application.
+   */
+  void quit();
+
+  /**
+   * Access to the sound interface.
+   */
+  nsIPlatformGlueSound sound();
+
+  /**
+   * Access to application tile icon (notification area or dock).
+   */
+  nsIApplicationIcon icon();
+  
+  /**
+   * Register the application as the default handler for the specified URI scheme.
+   *
+   * @param uriScheme The scheme to register.
+   * @param uriString The address to load for a URI of the given scheme. "%s" is used as a
+   *    place holder for the URI (e.g. "http://www.mymail.com?compose&to=%s").
+   */
+  void registerProtocolHandler(in AString uriScheme, in AString uriString);
+
+  /**
+   * Register a callback to be invoked (instead of navigating to the URI specified in
+   * registerProtocolHandler) when the user loads a URI with the specified scheme.
+   *
+   * @param callback Callback to invoke.
+   */
+   
+  void registerProtocolCallback(in AString uriScheme, in nsIPlatformProtocolCallback callback);
+
+  /**
+   * Unregister the application as the default handle for the specified URI scheme.
+   *
+   * @param uriScheme The scheme to unregister.
+   */
+  void unregisterProtocolHandler(in AString uriScheme);
+  
+  /**
+   * Get the URI spec to use for the provided URI. The URI scheme is analyzed and the appropriate
+   * protocol handler URI is used. If there is no protocol handler registered for the scheme, an
+   * empty string is returned.
+   *
+   * @param uri URI to get the protocol handler address for (e.g. "mailto:matthew.gertner@gmail.com").
+   * @returns the URI to load (e.g. "http://www.mymail.com?compose&to=matthew.gertner@gmail.com") or
+   *    an empty string if no protocol handler is registered for the scheme.
+   */
+  AString getProtocolURI(in AString uriSpec, out nsIPlatformProtocolCallback callback);
+  
+  /**
+   * Check whether we are currently the registered handler for the specified protocol.
+   *
+   * @param uriScheme Protocol to check.
+   */
+  boolean isRegisteredProtocolHandler(in AString uriScheme);
+  
+  /**
+   * Use the appropriate platform-specific mechanism to indicate that the window requires attention.
+   */
+  void getAttention();
+
+  /**
+   * Restore minimized window
+   */
+  void restoreWindow();
+  
+  /**
+   * Display the preferences dialog.
+   *
+   * @param paneToShow The name of the pane to display when the dialog is opened.
+   */
+  void showPreferences(in AString paneToShow);
+  
+  /**
+   * Display the About dialog.
+   */
+  void showAbout();
+  
+  /**
+   * Clear private data (cache, history, etc.).
+   */
+  void clearPrivateData();
+
+  /**
+   * Register a callback from web content that can prevent app shutdown.
+   *
+   * @param Callback interface (function) returns true to allow shutdown, false to prevent
+   */
+  void registerShutdownCallback(in nsIPlatformShutdownCallback callback);
+  
+  /**
+   * Invokes the shutdown callback, if any.
+   *
+   * @returns True if it is okay to shutdown (including if there is no callback), false otherwise
+  */
+  boolean invokeShutdownCallback();
+};

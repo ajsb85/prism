@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/78605/projects/webrunner/trunk/chrome/locale/en-US/overrides
+END
+netError.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/22906/projects/webrunner/trunk/chrome/locale/en-US/overrides/netError.dtd
+END
+settingsChange.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/78605/projects/webrunner/trunk/chrome/locale/en-US/overrides/settingsChange.dtd
+END

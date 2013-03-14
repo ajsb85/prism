@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/94994/projects/webrunner/trunk/chrome/content/preferences
+END
+handlers.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/handlers.xml
+END
+fonts.xul
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/fonts.xul
+END
+advanced-scripts.xul
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/advanced-scripts.xul
+END
+applications.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/78605/projects/webrunner/trunk/chrome/content/preferences/applications.js
+END
+cookies.xul
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/cookies.xul
+END
+tabs.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/tabs.js
+END
+connection.xul
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/connection.xul
+END
+cookies.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/cookies.js
+END
+preferences.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/94994/projects/webrunner/trunk/chrome/content/preferences/preferences.js
+END
+advanced.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/advanced.js
+END
+selectBookmark.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/selectBookmark.js
+END
+content.xul
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/content.xul
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/Makefile.in
+END
+security.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/security.js
+END
+privacy.xul
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/privacy.xul
+END
+content.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/content.js
+END
+permissions.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/permissions.js
+END
+securityWarnings.xul
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/securityWarnings.xul
+END
+main.xul
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/main.xul
+END
+securityWarnings.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/securityWarnings.js
+END
+main.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/main.js
+END
+tabs.xul
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/tabs.xul
+END
+fonts.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/22906/projects/webrunner/trunk/chrome/content/preferences/fonts.js
+END
+applicationManager.xul
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/applicationManager.xul
+END
+permissionsutils.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/permissionsutils.js
+END
+preferences.xul
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/preferences.xul
+END
+colors.xul
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/colors.xul
+END
+applicationManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/applicationManager.js
+END
+connection.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/connection.js
+END
+advanced.xul
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/advanced.xul
+END
+selectBookmark.xul
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/94994/projects/webrunner/trunk/chrome/content/preferences/selectBookmark.xul
+END
+languages.xul
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/languages.xul
+END
+security.xul
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/security.xul
+END
+languages.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/languages.js
+END
+permissions.xul
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/permissions.xul
+END
+jar.mn
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/jar.mn
+END
+handlers.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/handlers.css
+END
+privacy.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/privacy.js
+END
+sanitize.xul
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/sanitize.xul
+END
+applications.xul
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/72511/projects/webrunner/trunk/chrome/content/preferences/applications.xul
+END

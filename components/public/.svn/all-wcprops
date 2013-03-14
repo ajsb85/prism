@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/94994/projects/webrunner/trunk/components/public
+END
+nsINativeMenu.idl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/94994/projects/webrunner/trunk/components/public/nsINativeMenu.idl
+END
+nsIApplicationIcon.idl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/94994/projects/webrunner/trunk/components/public/nsIApplicationIcon.idl
+END
+nsIDesktopEnvironment.idl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/94994/projects/webrunner/trunk/components/public/nsIDesktopEnvironment.idl
+END
+nsIPlatformGlueInternal.idl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/56128/projects/webrunner/trunk/components/public/nsIPlatformGlueInternal.idl
+END
+nsINativeIcon.idl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/94994/projects/webrunner/trunk/components/public/nsINativeIcon.idl
+END
+nsIWebProtocolService.idl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/75913/projects/webrunner/trunk/components/public/nsIWebProtocolService.idl
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/72511/projects/webrunner/trunk/components/public/Makefile.in
+END
+nsIPlatformGlue.idl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/94994/projects/webrunner/trunk/components/public/nsIPlatformGlue.idl
+END

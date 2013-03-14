@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/94994/projects/webrunner/trunk/newapp/modules/arch
+END
+LinuxShortcutCreator.jsm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/94994/projects/webrunner/trunk/newapp/modules/arch/LinuxShortcutCreator.jsm
+END
+MacOSShortcutCreator.jsm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/94994/projects/webrunner/trunk/newapp/modules/arch/MacOSShortcutCreator.jsm
+END
+WinShortcutCreator.jsm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/94994/projects/webrunner/trunk/newapp/modules/arch/WinShortcutCreator.jsm
+END

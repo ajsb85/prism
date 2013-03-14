@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/94994/projects/webrunner/trunk/client/winbuild
+END
+regprot.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/94994/projects/webrunner/trunk/client/winbuild/regprot.nsi
+END
+UAC.nsh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/94994/projects/webrunner/trunk/client/winbuild/UAC.nsh
+END
+UAC.dll
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/19042/projects/webrunner/trunk/client/winbuild/UAC.dll
+END

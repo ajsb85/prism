@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences
+END
+preferences.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/preferences.properties
+END
+main.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/main.dtd
+END
+applications.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/applications.dtd
+END
+fonts.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/22906/projects/webrunner/trunk/chrome/locale/en-US/preferences/fonts.dtd
+END
+tabs.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/tabs.dtd
+END
+advanced-scripts.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/advanced-scripts.dtd
+END
+cookies.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/cookies.dtd
+END
+applicationManager.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/applicationManager.dtd
+END
+connection.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/connection.dtd
+END
+preferences.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/preferences.dtd
+END
+colors.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/22906/projects/webrunner/trunk/chrome/locale/en-US/preferences/colors.dtd
+END
+advanced.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/advanced.dtd
+END
+selectBookmark.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/selectBookmark.dtd
+END
+languages.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/languages.dtd
+END
+security.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/security.dtd
+END
+content.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/content.dtd
+END
+permissions.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/permissions.dtd
+END
+privacy.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/privacy.dtd
+END
+applicationManager.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/applicationManager.properties
+END
+securityWarnings.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/72511/projects/webrunner/trunk/chrome/locale/en-US/preferences/securityWarnings.dtd
+END

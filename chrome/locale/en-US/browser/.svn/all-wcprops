@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/65844/projects/webrunner/trunk/chrome/locale/en-US/browser
+END
+baseMenuOverlay.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/65844/projects/webrunner/trunk/chrome/locale/en-US/browser/baseMenuOverlay.dtd
+END
+browser.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/22906/projects/webrunner/trunk/chrome/locale/en-US/browser/browser.properties
+END
+sanitize.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/22906/projects/webrunner/trunk/chrome/locale/en-US/browser/sanitize.dtd
+END

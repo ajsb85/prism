@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/94994/projects/webrunner/trunk
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/25218/projects/webrunner/trunk/Makefile.in
+END
+build.mk
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/9495/projects/webrunner/trunk/build.mk
+END
+makefiles.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/57886/projects/webrunner/trunk/makefiles.sh
+END
+confvars.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/94994/projects/webrunner/trunk/confvars.sh
+END
